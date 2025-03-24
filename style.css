@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper{
+    width: 1440px;
+    margin: auto;
+    background-color: #F6F6F9;
+    padding: 50px;
+
+}
+
+.wrapper2{
+    width: 1440px;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 5px solid #F6F6F9;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+
+}
+
+.navbar__money{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar__money-item{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 19px;
+
+    color: rgb(124, 124, 124);
+}
+
+.navbar__btn{
+    /* Rectangle 5 */
+
+    width: 146px;
+    height: 40px;
+
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: none;
+
+    /* Подписатся */
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+}
+
+.intro{
+    width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #FFFFFF;
+}
+
+.intro__links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.intro__links-item{
+
+    font-size: large;
+    font-family: 'Rubik';
+    color: black;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add2{
+    margin: auto;
+    width: 1200px;
+}
+
+.reg{
+    width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+    display: flex;
+    gap: 100px;
+}
+
+.reg__box{
+    margin: 20px auto;
+}
+
+.reg__box2{
+    margin: 20px auto;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.reg__tool{
+    width: 600px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.reg__tool2{
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.reg__tool3{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.btn{
+        /* Rectangle 61 */
+
+box-sizing: border-box;
+
+width: 220px;
+height: 50px;
+
+background: #295093;
+border: 2px solid rgba(40, 81, 147, 0.54);
+border-radius: 5px;
+
+/* Отправить */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+}
+
+.link{
+    border-radius: 15px;
+    border: 3px solid #F6F6F9;
+}
+
+.reg__tool{
+    border: 2px solid #285193;
+}
+
+.reg__tool2{
+    border: 2px solid #285193;
+}
+
+.reg__tool3{
+    border: 2px solid #285193;
+}
